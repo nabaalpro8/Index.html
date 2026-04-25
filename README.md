@@ -1,6 +1,4 @@
-# Index.html
-My bakery
-<!DOCTYPE html>
+# My bakery
 <html>
 <head>
     <title>Delight Bakery</title>
