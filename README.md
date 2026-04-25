@@ -165,6 +165,99 @@ My bakery
         <textarea placeholder="Your Message"></textarea>
         <button type="submit">Send</button>
     </form>
+    src="https://source.unsplash.com/250x200/?vanilla-cake">
+            <h3>Vanilla Cake 🎂</h3>
+            <p>₹450</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?blueberry-cake">
+            <h3>Blueberry Cake 🎂</h3>
+            <p>₹550</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?lemon-cake">
+            <h3>Lemon Cake 🎂</h3>
+            <p>₹480</p>
+        </div>
+
+        <!-- Cheesecake -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?cheesecake">
+            <h3>New York Cheesecake 🧀</h3>
+            <p>₹600</p>
+        </div>
+
+        <!-- Cookies -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?cookies">
+            <h3>Cookies 🍪</h3>
+            <p>₹120</p>
+        </div>
+
+        <!-- Burger -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?burger">
+            <h3>Burger 🍔</h3>
+            <p>₹150</p>
+        </div>
+
+        <!-- Sandwich -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?sandwich">
+            <h3>Sandwich 🥪</h3>
+            <p>₹120</p>
+        </div>
+
+        <!-- Croissant -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?croissant">
+            <h3>Croissant 🥐</h3>
+            <p>₹90</p>
+        </div>
+
+        <!-- Puffs -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?puff-pastry">
+            <h3>Puffs 🥐</h3>
+            <p>₹80</p>
+        </div>
+
+        <!-- Chocolate -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?chocolate">
+            <h3>Homemade Chocolates 🍫</h3>
+            <p>₹200</p>
+        </div>
+
+        <!-- Tiramisu -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?tiramisu">
+            <h3>Tiramisu ☕</h3>
+            <p>₹300</p>
+        </div>
+
+        <!-- Baklava -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?baklava">
+            <h3>Baklava 🍯</h3>
+            <p>₹350</p>
+        </div>
+
+        <!-- Kunafa -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?kunafa">
+            <h3>Kunafa Rolls 🧀</h3>
+            <p>₹400</p>
+        </div>
+
+        <!-- Bread -->
+        <div class="card">
+            <img src="https://source.unsplash.com/250x200/?bread">
+            <h3>Fresh Bread 🍞</h3>
+            <p>₹60</p>
+        </div>
 </section>
 
 <footer>
