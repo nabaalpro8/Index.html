@@ -259,6 +259,78 @@ My bakery
             <p>₹60</p>
         </div>
 </section>
+<section id="cart">
+<h2 style="text-align:center;">Your Cart 🛒</h2>
+
+<div id="cartBox">
+<ul id="cartList"></ul>
+<h3>Total: ₹ <span id="total">0</span></h3>
+
+<button onclick="orderWhatsApp()">Order on WhatsApp 📲</button><br>
+<button onclick="payUPI()">Pay via UPI 💳</button>
+</div>
+
+</section>
+
+<section id="contact">
+<h2 style="text-align:center;">Contact</h2>
+
+<p style="text-align:center;">
+📍 Panvel<br>
+📞 <a href="tel:9876543210">Call Now</a><br><br>
+
+<a href="https://maps.google.com" target="_blank">Open Location 📍</a>
+</p>
+
+</section>
+
+<footer>
+<p>© 2026 Sweet Bakery</p>
+</footer>
+
+<script>
+let cart = [];
+let total = 0;
+
+function add(item, price){
+    cart.push(item);
+    total += price;
+    showCart();
+}
+
+function showCart(){
+    let list = document.getElementById("cartList");
+    list.innerHTML = "";
+
+    cart.forEach(i=>{
+        let li = document.createElement("li");
+        li.textContent = i;
+        list.appendChild(li);
+    });
+
+    document.getElementById("total").textContent = total;
+}
+
+function orderWhatsApp(){
+    if(cart.length === 0){
+        alert("Cart is empty!");
+        return;
+    }
+
+    let message = "Order: " + cart.join(", ") + " | Total ₹" + total;
+
+    let url = "https://wa.me/91XXXXXXXXXX?text=" + encodeURIComponent(message);
+    window.open(url);
+}
+
+function payUPI(){
+    let upi = "upi://pay?pa=yourupi@bank&pn=SweetBakery&am=" + total;
+    window.open(upi);
+}
+</script>
+
+</body>
+</html>
 
 <footer>
     <p>📍 Panvel | 🕒 9 AM - 9 PM</p>
