@@ -163,7 +163,6 @@
         <textarea placeholder="Your Message"></textarea>
         <button type="submit">Send</button>
     </form>
-    src="https://source.unsplash.com/250x200/?vanilla-cake">
             <h3>Vanilla Cake 🎂</h3>
             <p>₹450</p>
         </div>
