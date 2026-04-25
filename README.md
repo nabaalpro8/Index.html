@@ -367,6 +367,3 @@ function sendMsg(e){
     alert("Message sent!");
 }
 </script>
-
-</body>
-</html>
